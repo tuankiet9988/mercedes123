@@ -1,0 +1,358 @@
+@charset "utf-8";
+/* CSS Document */
+.container1
+{
+    width: 100%;
+    height: 3000px;
+    background-color:white;
+    overflow: hidden;
+}
+.header
+{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position:fixed;
+    z-index: 1000;
+}
+.logo
+{
+    width: 10%;
+    height: 60px;
+    background-color:black;
+    float: left;
+    margin-left: 30px;
+}
+.menu
+{ 
+    width: 80%;
+    height: 60px;
+    background-color:black;
+    float:right;
+    box-sizing: border-box;
+}
+.menu ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.menu ul li
+{
+    float: left;
+    padding: 20px 35px;
+    color:white;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color:white;
+}
+.menu ul li:hover
+{
+    background-color:gray;
+}
+
+.icon
+{
+    width: 65.8%;
+    height: 60px;
+    color: white;
+    margin-top: 5px;
+}
+.sidenav 
+{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a 
+{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover 
+{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.slider
+{
+    width: 100%;
+    height: 560px;
+    background-color:blue;
+    box-sizing: border-box;
+    float: left;
+    background: url("../images/Untitledss-1-min.jpg")
+    no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-left: 80px;
+    color: white;
+    font-family: slider_a;
+}
+.slider_a
+{
+    width: 60%;
+    height: 600px;
+    background-color:aqua;
+    box-sizing: border-box;
+    float: left;
+    padding: 100px;
+    font-family: slider_a;
+}
+@font-face 
+{
+  font-family: slider_a;
+  src: url("../font/Corporate A Light.ttf");
+}
+.slider_a1
+{
+    width: 50%;
+    height: 300px;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 2px;
+    margin-top: 2px;
+}
+button
+{
+    width: 130px;
+    height: 40px;
+   margin-top:10px;
+   background-color:darkgray;
+   border: none;
+   border-radius: 50px;
+}
+.slider>p
+{
+    margin-top:-10px;
+}
+button:hover
+{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.slider1
+{
+    width: 100%;
+    height: 1000px;
+    background-color:white;
+    float: left;
+    padding-top: 30px;
+    padding-left:30px;
+    font-family: slider_a;
+}
+.slider11
+{
+    width:660px;
+    height: 60px;
+    background-color:white;
+}
+.slider11 ul
+{
+    list-style: none;
+}
+.slider11 ul li
+{
+    float: left;
+    padding: 20px 5px;
+    border: 1px;
+}
+.slider11 ul li:hover
+{
+    background-color:#D0D0D0;
+}
+.slider11a
+{
+    width: 130px;
+    height: 40px;
+    background-color:white;
+    float: left;
+    padding-top: 20px;
+    font-family: slider_a;
+    border: 1px solid #000000;
+    cursor: pointer;
+    
+}
+.slider11a:hover
+{
+    background-color: gray;
+}
+.menuxe
+{
+    width: 18%;
+    height: 300px;
+    background-color: blue;
+    margin-top: 50px;
+    border: 1px solid #000000;
+}
+.menuxe1
+{
+    width: 96.2%;
+    height: 65.1px;
+    background-color:white;
+    padding-top:10px;
+    padding-left: 10px;
+    cursor: pointer;
+    
+}
+.xemtatca
+{
+    width:100%;
+    height: 75px;
+    padding-top: 20px;
+    font-family: xemtatca;
+    cursor: pointer;
+}
+@font-face 
+{
+  font-family: xemtatca;
+  src: url("../font/Corporate A Bold.otf");
+}
+.menuxe1:hover
+{
+ background-color: gray;
+}
+.menuxe2
+{
+    width:80%;
+    height: 800px;
+    background-color:white;
+    float: right;
+    margin-top: -400px;
+    border-right: 1px solid #000000;
+    margin-left: 20px;
+}
+.sanpham
+{
+    width:100%;
+    height: 350px;
+    background-color:white;
+    float: left;
+    margin: 20px;
+}
+.sanpham1
+{
+    width:27%;
+    height: 300px;
+    background-color:white;
+    float: left;
+    margin: 4.4% 2.5%;
+    font-family: slider_a;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:50px;
+    font-size: 110%;
+    position: relative;
+}
+.lable
+{
+    width:100%;
+    height: 230px;
+    background-color:#C4C4C4;
+    position: absolute;
+    top: 0;
+}
+.sanpham1 .lable
+{
+    opacity: 0.5;
+    transition: all .3s linear;
+    transform: scale(0);
+}
+.sanpham1:hover .lable
+{
+    opacity: 0.5;
+    transform: scale(1);
+}
+.slider2
+{
+    width: 100%;
+    height: 600px;
+    background-color:chartreuse;
+}
+.slider2a
+{
+    width: 49%;
+    height: 600px;
+    float:right;
+    padding-top:50px;
+}
+.slider3
+{
+    width: 100%;
+    height: 400px;
+    background-color:red;
+    padding:100px 200px;
+    box-sizing: border-box;
+}
+input
+{
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    box-sizing:border-box;
+    outline:none;
+}
+select
+{
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    box-sizing:border-box;
+    outline:none;
+}
+.slider4
+{
+    width:100%;
+    height: 130px;
+    background-color:black;
+    margin-top: -160px;
+}
+.slider4a
+{
+    width:50%;
+    height: 200px;
+    float: left;
+}
+.slider4a1
+{
+    width:23%;
+    height: 27px;
+    float: left;
+    cursor: pointer;
+    padding-top: 50px;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 70px;
+}
+.slider4a1:hover
+{
+    color: grey;
+}
